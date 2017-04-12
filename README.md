@@ -1,5 +1,6 @@
-Instructions: This week’s assignment is solely a programming assignment named Mosaic. The assignment consists of a list of requirements and a detailed design. It will be your responsibility to implementing this design and for implementing one additional interesting feature of your choice.
-This is the similar to how the real world works. Most often a non-technical person (project sponsor) will approach your group with a request. You or someone on your team will be responsible for collecting, documenting, confirming their requirements. How this occurs depends on your organization’s development process (SDLC). For this assignment, I have collected your requirements and am providing your initial design.
+Instructions: This week’s assignment is solely a programming assignment named Mosaic.
+
 Requirements: We would like to have a colored mosaic that shows a random pattern of colored circles and squares with a random letter in the middle of the shape.
 Design: We will develop a Java application that provides a 10 by 10 grid of random circles and squares of random colors that includes a random letter in the middle. The resulting application should look something like:# mosaic-
+
 Home work have colored mosaic 10 by 10 grid
