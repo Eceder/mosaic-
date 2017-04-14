@@ -6,8 +6,6 @@ import javax.swing.JButton;
 import java.awt.Container; 
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -34,31 +32,31 @@ class XAndOTile extends JPanel {
         blue = GetNumberBetween(0,255);
 
         letter = "A";
-        if (GetNumberBetween(0,26) == 1) { letter = "B"; }  
-        if (GetNumberBetween(0,26) == 2) { letter = "C"; }  
-        if (GetNumberBetween(0,26) == 3) {letter = "D"; }  
-        if (GetNumberBetween(0,26) == 4) {letter = "E"; }  
-        if (GetNumberBetween(0,26) == 5) {letter = "F"; }
-        if (GetNumberBetween(0,26) == 6) {letter = "G"; }  
-        if (GetNumberBetween(0,26) == 7) {letter = "H";}  
-        if (GetNumberBetween(0,26) == 8) {letter = "I"; }  
-        if (GetNumberBetween(0,26) == 9) {letter = "J";}  
-        if (GetNumberBetween(0,26) == 10) {letter = "K";}  
-        if (GetNumberBetween(0,26) == 11) {letter = "L";}  
-        if (GetNumberBetween(0,26) == 12) {letter = "M";}  
-        if (GetNumberBetween(0,26) == 13) {letter = "N";}  
-        if (GetNumberBetween(0,26) == 14) {letter = "O";}  
-        if (GetNumberBetween(0,26) == 15) {letter = "P";}  
-        if (GetNumberBetween(0,26) == 16) {letter = "Q";}  
-        if (GetNumberBetween(0,26) == 17) {letter = "R";}
-        if (GetNumberBetween(0,26) == 18) {letter = "S";}  
-        if (GetNumberBetween(0,26) == 19) {letter = "T";}  
-        if (GetNumberBetween(0,26) == 20) {letter = "U";}  
-        if (GetNumberBetween(0,26) == 21) {letter = "V";}  
-        if (GetNumberBetween(0,26) == 22) {letter = "W";}  
-        if (GetNumberBetween(0,26) == 23) {letter = "X";}  
-        if (GetNumberBetween(0,26) == 24) {letter = "Y";}  
-        if (GetNumberBetween(0,26) == 25) {letter = "Z";}  
+        if (GetNumberBetween(0,25) == 1) { letter = "B"; }  
+        if (GetNumberBetween(0,25) == 2) { letter = "C"; }  
+        if (GetNumberBetween(0,25) == 3) {letter = "D"; }  
+        if (GetNumberBetween(0,25) == 4) {letter = "E"; }  
+        if (GetNumberBetween(0,25) == 5) {letter = "F"; }
+        if (GetNumberBetween(0,25) == 6) {letter = "G"; }  
+        if (GetNumberBetween(0,25) == 7) {letter = "H";}  
+        if (GetNumberBetween(0,25) == 8) {letter = "I"; }  
+        if (GetNumberBetween(0,25) == 9) {letter = "J";}  
+        if (GetNumberBetween(0,25) == 10) {letter = "K";}  
+        if (GetNumberBetween(0,25) == 11) {letter = "L";}  
+        if (GetNumberBetween(0,25) == 12) {letter = "M";}  
+        if (GetNumberBetween(0,25) == 13) {letter = "N";}  
+        if (GetNumberBetween(0,25) == 14) {letter = "O";}  
+        if (GetNumberBetween(0,25) == 15) {letter = "P";}  
+        if (GetNumberBetween(0,25) == 16) {letter = "Q";}  
+        if (GetNumberBetween(0,25) == 17) {letter = "R";}
+        if (GetNumberBetween(0,25) == 18) {letter = "S";}  
+        if (GetNumberBetween(0,25) == 19) {letter = "T";}  
+        if (GetNumberBetween(0,25) == 20) {letter = "U";}  
+        if (GetNumberBetween(0,25) == 21) {letter = "V";}  
+        if (GetNumberBetween(0,25) == 22) {letter = "W";}  
+        if (GetNumberBetween(0,25) == 23) {letter = "X";}  
+        if (GetNumberBetween(0,25) == 24) {letter = "Y";}  
+        if (GetNumberBetween(0,25) == 25) {letter = "Z";}  
     }
     
 
@@ -86,8 +84,8 @@ class XAndOTile extends JPanel {
 
         final int fontSize=40;
         g.setFont(new Font("Monospaced", Font.BOLD, fontSize));
-        int stringX = (panelWidth/2)-15;
-        int stringY = (panelHeight/2)+15;
+        int stringX = (panelWidth/2)-10;
+        int stringY = (panelHeight/2)+10;
         g.drawString(letter,stringX,stringY);
     }
 
